@@ -12,14 +12,45 @@ public class Main {
         return xor;
     }
     public static void main(String[] args) {
-         int e =findOddOccuring(new int[]{7,7,1,1,1,2,2,4,4,5,5,5,5});
-        System.out.println(e);
-//        System.out.println(5346%10);
-       int [] x = {3,4,2,1,5};
-       int [] x2 = {1,1,1,2,2,1};
-       int [][] x3 = {{3,2,12}, {9,5,4}, {7,10,2}};
 
-       int [][] x4 = {{1,1,1,1}, {1,1,1,1}, {1,1,1,1}};
+//    LinkedListAssignment x = new LinkedListAssignment();
+//    x.InsertionAtEnd(1);
+//    x.InsertionAtEnd(1);
+//    x.InsertionAtBegin(2);
+//    x.InsertionAtBegin(2);
+
+//     Quetions x1 = new Quetions(x);
+//     x1.delDuplicates();
+//     x1.display();
+//        LinkedListAssignment a = new LinkedListAssignment();
+//        LinkedListAssignment b = new LinkedListAssignment();
+//        a.InsertionAtEnd(5);
+//        a.InsertionAtEnd(6);
+//        a.InsertionAtEnd(3);
+//        b.InsertionAtEnd(8);
+//        b.InsertionAtEnd(4);
+//        b.InsertionAtEnd(2);
+//        Quetions x1 = new Quetions(a);
+//        x1.sumList(a, b);
+
+        LinkedListAssignment m = new LinkedListAssignment();
+        m.InsertionAtBegin(4);
+        m.InsertionAtBegin(2);
+        m.InsertionAtBegin(2);
+        m.InsertionAtBegin(4);
+        Quetions g = new Quetions(m);
+        g.checkPalindrome(m);
+
+
+
+//         int e =findOddOccuring(new int[]{7,7,1,1,1,2,2,4,4,5,5,5,5});
+//        System.out.println(e);
+////        System.out.println(5346%10);
+//       int [] x = {3,4,2,1,5};
+//       int [] x2 = {1,1,1,2,2,1};
+//       int [][] x3 = {{3,2,12}, {9,5,4}, {7,10,2}};
+//
+//       int [][] x4 = {{1,1,1,1}, {1,1,1,1}, {1,1,1,1}};
 
 //       int j = 0^6;
 //        System.out.println(j);
